@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Digital X | Enterprise AI & Growth Automation</title>
+    <script src="https://tailwindcss.com"></script>
+    <style>
+        body { background-color: #030712; color: #f3f4f6; font-family: system-ui, sans-serif; }
+        .gradient-text { background: linear-gradient(135deg, #60a5fa, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center border-b border-gray-800">
+        <div class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+            <span class="p-2 bg-blue-600 rounded-lg text-xs font-black">BDX</span>
+            BenjaminDigitalX
+        </div>
+        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition-all">Get Strategy Session</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="max-w-5xl mx-auto px-6 text-center py-20 md:py-32">
+        <span class="text-xs uppercase tracking-widest font-semibold text-blue-400 bg-blue-950/50 px-4 py-1.5 rounded-full border border-blue-900/50">Next-Gen Business Infrastructure</span>
+        <h1 class="text-4xl md:text-6xl font-black tracking-tight mt-6 leading-tight">
+            We scale enterprise operations using <span class="gradient-text">Advanced AI Automation</span>
+        </h1>
+        <p class="text-gray-400 text-lg md:text-xl mt-6 max-w-2xl mx-auto">
+            Stop losing thousands of hours to manual tasks. We engineer high-performance systems that automate client acquisition, workflows, and customer support.
+        </p>
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#contact" class="bg-white hover:bg-gray-150 text-gray-900 px-8 py-4 rounded-xl font-bold transition-all shadow-lg shadow-white/5 text-center">Deploy Your System</a>
+            <a href="#services" class="border border-gray-800 hover:border-gray-700 bg-gray-950/40 px-8 py-4 rounded-xl font-semibold transition-all text-center">Explore Core Capabilities</a>
+        </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section id="services" class="max-w-7xl mx-auto px-6 py-20 border-t border-gray-900">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-center mb-16">Enterprise Core Architectures</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-gray-950/40 border border-gray-900 p-8 rounded-2xl">
+                <div class="w-12 h-12 bg-blue-950 border border-blue-800/50 rounded-xl flex items-center justify-center text-blue-400 text-xl font-bold mb-6">01</div>
+                <h3 class="text-xl font-bold mb-3 text-white">Custom AI Agents</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Smart virtual agents that integrate directly into your communications to handle leads, screen inquiries, and schedule appointments 24/7 without human oversight.</p>
+            </div>
+            <div class="bg-gray-950/40 border border-gray-900 p-8 rounded-2xl">
+                <div class="w-12 h-12 bg-purple-950 border border-purple-800/50 rounded-xl flex items-center justify-center text-purple-400 text-xl font-bold mb-6">02</div>
+                <h3 class="text-xl font-bold mb-3 text-white">Workflow Engineering</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Connecting CRM pipelines, data tracking, and communications systems together so information moves across your business perfectly with zero delays.</p>
+            </div>
+            <div class="bg-gray-950/40 border border-gray-900 p-8 rounded-2xl">
+                <div class="w-12 h-12 bg-emerald-950 border border-emerald-800/50 rounded-xl flex items-center justify-center text-emerald-400 text-xl font-bold mb-6">03</div>
+                <h3 class="text-xl font-bold mb-3 text-white">Conversion Infrastructure</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">High-converting landing architectures designed specifically to target premium accounts, build immediate authority, and maximize client acquisition velocity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Form / Contact -->
+    <section id="contact" class="max-w-3xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-3xl font-black tracking-tight mb-4">Request a Strategy Architecture</h2>
+        <p class="text-gray-400 mb-10">Let us analyze your operational inefficiencies and construct a custom system plan tailored for your brand.</p>
+        <form class="bg-gray-950/30 border border-gray-900 p-8 md:p-10 rounded-3xl text-left shadow-2xl">
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold text-gray-400 mb-2">Corporate Identity / Name</label>
+                    <input type="text" placeholder="e.g. John Doe" class="w-full bg-gray-900 border border-gray-800 focus:border-blue-500 rounded-xl px-4 py-3 text-white outline-none transition-all">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold text-gray-400 mb-2">Direct Enterprise Email</label>
+                    <input type="email" placeholder="name@company.com" class="w-full bg-gray-900 border border-gray-800 focus:border-blue-500 rounded-xl px-4 py-3 text-white outline-none transition-all">
+                </div>
+            </div>
+            <div class="mb-6">
+                <label class="block text-xs uppercase tracking-wider font-semibold text-gray-400 mb-2">Primary Bottleneck Description</label>
+                <textarea rows="4" placeholder="What manual tasks are holding your business back from scaling?" class="w-full bg-gray-900 border border-gray-800 focus:border-blue-500 rounded-xl px-4 py-3 text-white outline-none transition-all resize-none"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all tracking-wide">Submit Architecture Request</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="max-w-7xl mx-auto px-6 py-12 border-t border-gray-900 text-center text-xs text-gray-600">
+        &copy; 2026 Benjamin Digital X. All systems secured. Powered by Next-Gen AI Infrastructure.
+    </footer>
+</body>
+</html>
